@@ -28,7 +28,7 @@ export default function Projects() {
         <Card 
           name="Tokite"
           background="./img/wallpaper.jpg"
-          url="/projects/bimind"
+          url="/projects/tokite"
           skills={[
             {
                 label: "React",
@@ -45,7 +45,7 @@ export default function Projects() {
         <Card 
           name="Axotools v1"
           background="./img/wallpaper.jpg"
-          url="/projects/bimind"
+          url="/projects/axotools-v1"
           skills={[
             {
                 label: "Symfony",
@@ -88,7 +88,7 @@ export default function Projects() {
         <Card 
           name="GreenCode"
           background="./img/wallpaper.jpg"
-          url="/projects/bimind"
+          url="/projects/green-code"
           skills={[
             {
                 label: "React",
@@ -105,15 +105,15 @@ export default function Projects() {
         <Card 
           name="TodoGift"
           background="./img/wallpaper.jpg"
-          url="/projects/bimind"
+          url="/projects/todogift"
           skills={[
+            {
+              label: "Symfony",
+              icon: "../img/skills/frameworks/symfony_icon.png"
+            },
             {
                 label: "Vue",
                 icon: "../img/skills/frameworks/vue_icon.png"
-            },
-            {
-                label: "Nodejs",
-                icon: "../img/skills/frameworks/nodejs_icon.png"
             }
         ]}
         />
@@ -122,7 +122,7 @@ export default function Projects() {
         <Card 
           name="Kcorp Matches"
           background="./img/wallpaper.jpg"
-          url="/projects/bimind"
+          url="/projects/kcorp-matches"
           skills={[
             {
                 label: "Nextjs",

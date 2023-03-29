@@ -16,6 +16,10 @@ const Bimind = () => {
         {
             label: "Nodejs",
             icon: "../img/skills/frameworks/nodejs_icon.png"
+        },
+        {
+            label: "Postgres",
+            icon: "../img/skills/databases/pgsql_icon.png"
         }
     ]
     const screens = [

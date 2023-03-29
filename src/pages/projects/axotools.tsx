@@ -19,6 +19,10 @@ const Axotools = () => {
         {
             label: "React",
             icon: "../img/skills/frameworks/react_icon.png"
+        },
+        {
+            label: "POstgres",
+            icon: "../img/skills/databases/pgsql_icon.png"
         }
     ]
     const screens = [

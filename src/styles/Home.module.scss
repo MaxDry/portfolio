@@ -1,5 +1,5 @@
 .main {
-  
+
   .navbar {
     display: flex;
     justify-content: center;
@@ -7,36 +7,36 @@
     width: 100vw;
     background-color: #271b29d6;
     z-index: 99;
-    
+
     .navbar_content {
       margin: 0;
       display: flex;
       list-style-type: none;
       padding: 0;
 
-       li {
-         margin: 15px 20px;
+      li {
+        margin: 15px 20px;
 
-         .box {
-           height: 50px;
-           border-radius: 0 0 5px 5px;
-           overflow: hidden;
-           
-            a {
-              padding: 0 30px;
-              font-family: freitag;
-              letter-spacing: 3px;
-              display: flex;
-              font-size: 1.5rem;
-              color: rgb(255, 255, 255);
-              height: 100%;
-              justify-content: center;
-              align-items: center;
-              text-decoration: none;
-            }
-         }
-         
-       }
+        .box {
+          height: 50px;
+          border-radius: 0 0 5px 5px;
+          overflow: hidden;
+
+          a {
+            padding: 0 30px;
+            font-family: freitag;
+            letter-spacing: 3px;
+            display: flex;
+            font-size: 1.5rem;
+            color: rgb(255, 255, 255);
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+          }
+        }
+
+      }
     }
   }
 
@@ -57,8 +57,9 @@
         height: 500px;
         background: red;
       }
+
       .wall_me {
-        
+
         position: absolute;
         top: 150px;
         width: 530px;
@@ -85,7 +86,7 @@
         // border-bottom: 10px solid #6c2641;
         z-index: 9;
       }
-  
+
       .me {
         height: 500px;
         z-index: 8 !important;
@@ -98,7 +99,7 @@
   }
 
   .content {
-    padding: 50px 150px;
+    padding: 90px 150px;
 
     h2 {
       text-align: center;
