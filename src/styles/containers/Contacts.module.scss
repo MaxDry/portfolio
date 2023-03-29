@@ -1,0 +1,29 @@
+.contacts {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    .icon {
+        display: flex;
+        align-items: center;
+        font-family: manrope-bold;
+        color: #121d31;
+        font-size: 15px;
+        text-decoration: none;
+        background-color: #fdc1a1;
+        padding: 6px 12px;
+        border-radius: 4px;
+        margin:0 10px;
+
+        &:hover {
+            background-color: #e6a684;
+        }
+
+        svg {
+            width: 1.6rem;
+            height: 1.6rem;
+            color: #121d31;
+            margin-right: 5PX;
+        }
+    }
+}

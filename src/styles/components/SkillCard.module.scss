@@ -1,0 +1,61 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #0e1623;
+    height: 100%;
+    border-radius: 7px;
+    overflow: hidden;
+    color: white;
+    font-family: manrope-bold;
+    font-size: 20px;
+    text-decoration: none;
+
+    &:hover {
+        .background_image {
+            transform: scale(1.2);
+        }
+    }
+
+    .background {
+        height: 75%;
+        overflow: hidden;
+
+        .background_image {
+            transition: all 0.2s;
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .title {
+        padding: 20px;
+        letter-spacing: 1px;
+
+        .skills_list {
+            display: flex;
+            height: 33px;
+            padding: 10px 0;
+
+            .skill_element {
+                display: flex;
+                align-items: center;
+                padding: 5px 6px 5px 13px;
+                background-color: #121d31;
+                border-radius: 100px;
+                margin-right: 10px;
+
+                img {
+                    height: 100%;
+                    margin-right: 10px;
+                }
+                span {
+                    font-family: manrope;
+                    font-size: 14px;
+                    color: white;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.tab_skill {
+    letter-spacing: 1px;
+    font-family: manrope-bold;
+}
+
+.MuiTab-root {
+    background-color: red;
+}
+
+.tabList>div {
+    display: flex;
+    justify-content: center;
+}
+
+.skill_list {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 8rem;
+    row-gap: 6rem;
+
+    .skill_element {
+        display: flex;
+        flex-direction: column;
+        
+        img {
+            width: 70px;
+            height: 70px;
+            object-fit: contain;
+        }
+
+        span {
+            margin-top: 10px;
+            color: rgba(255, 255, 255, 0.856);
+            font-family: manrope;
+            text-align: center;
+            text-transform: capitalize;
+        }
+    }
+}

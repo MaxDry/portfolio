@@ -1,0 +1,110 @@
+{
+    "langage": [
+        {
+            "label": "html",
+            "icon_url": "./img/skills/langage/html_icon.png"
+        },
+        {
+            "label": "css",
+            "icon_url": "./img/skills/langage/css_icon.png"
+        },
+        {
+            "label": "javascript",
+            "icon_url": "./img/skills/langage/js_icon.png"
+        },
+        {
+            "label": "php",
+            "icon_url": "./img/skills/langage/php_icon.svg"
+        },
+        {
+            "label": "sass",
+            "icon_url": "./img/skills/langage/sass_icon.png"
+        }
+    ],
+    "framework": [
+        {
+            "label": "nodejs",
+            "icon_url": "./img/skills/frameworks/nodejs_icon.png"
+        },
+        {
+            "label": "symfony",
+            "icon_url": "./img/skills/frameworks/symfony_icon.png"
+        },
+        {
+            "label": "nextjs",
+            "icon_url": "./img/skills/frameworks/nextjs_icon.webp"
+        },
+        {
+            "label": "react",
+            "icon_url": "./img/skills/frameworks/react_icon.png"
+        },
+        {
+            "label": "vuejs",
+            "icon_url": "./img/skills/frameworks/vue_icon.png"
+        },
+        {
+            "label": "React Native",
+            "icon_url": "./img/skills/frameworks/reactnative_icon.png"
+        },
+        {
+            "label": "Api Platform",
+            "icon_url": "./img/skills/frameworks/apiplatform_icon.png"
+        }
+    ],
+    "database": [
+        {
+            "label": "mysql",
+            "icon_url": "./img/skills/databases/mysql_icon.png"
+        },
+        {
+            "label": "postgresql",
+            "icon_url": "./img/skills/databases/pgsql_icon.png"
+        },
+        {
+            "label": "mongodb",
+            "icon_url": "./img/skills/databases/mongodb_icon.png"
+        }
+    ],
+    "testing": [
+        {
+            "label": "jest",
+            "icon_url": "./img/skills/testing/jest.webp"
+        },
+        {
+            "label": "phpunit",
+            "icon_url": "./img/skills/testing/phpunit_icon.png"
+        }
+    ],
+    "versioning": [
+        {
+            "label": "github",
+            "icon_url": "./img/skills/versioning/github_icon.png"
+        },
+        {
+            "label": "gitlab",
+            "icon_url": "./img/skills/versioning/gitlab_icon.png"
+        }
+    ],
+    "plus": [
+        {
+            "label": "docker",
+            "icon_url": "./img/skills/plus/docker_icon.webp"
+        },
+        {
+            "label": "trello",
+            "icon_url": "./img/skills/plus/trello_icon.webp"
+        },
+        {
+            "label": "postman",
+            "icon_url": "./img/skills/plus/postman_icon.svg"
+        },
+        {
+            "label": "slack",
+            "icon_url": "./img/skills/plus/slack_icon.png"
+        },
+        {
+            "label": "gimp",
+            "icon_url": "./img/skills/plus/gimp_icon.png"
+        }
+    ]
+}

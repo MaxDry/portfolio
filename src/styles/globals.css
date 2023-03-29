@@ -1,0 +1,28 @@
+@font-face {
+    font-family: freitag;
+    src: url("../../public/fonts/Matchmaker.ttf");
+}
+@font-face {
+    font-family: manrope;
+    src: url("../../public/fonts/Manrope-Regular.ttf");
+}
+@font-face {
+    font-family: manrope-bold;
+    src: url("../../public/fonts/Manrope-ExtraBold.ttf");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #121d31;
+}
+
+h1, h2, h3 {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: manrope-bold;
+}

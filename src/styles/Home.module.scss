@@ -1,0 +1,112 @@
+.main {
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    background-color: #271b29d6;
+    z-index: 99;
+    
+    .navbar_content {
+      margin: 0;
+      display: flex;
+      list-style-type: none;
+      padding: 0;
+
+       li {
+         margin: 15px 20px;
+
+         .box {
+           height: 50px;
+           border-radius: 0 0 5px 5px;
+           overflow: hidden;
+           
+            a {
+              padding: 0 30px;
+              font-family: freitag;
+              letter-spacing: 3px;
+              display: flex;
+              font-size: 1.5rem;
+              color: rgb(255, 255, 255);
+              height: 100%;
+              justify-content: center;
+              align-items: center;
+              text-decoration: none;
+            }
+         }
+         
+       }
+    }
+  }
+
+  .welcome {
+    background: url("../../public/img/wallpaper.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+
+    .welcome_content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 80px;
+      justify-content: center;
+
+      .test {
+        width: 500px;
+        height: 500px;
+        background: red;
+      }
+      .wall_me {
+        
+        position: absolute;
+        top: 150px;
+        width: 530px;
+        height: 530px;
+        // background: linear-gradient(to bottom, #c98aa200, white);
+        background-color: rgba(255, 255, 255, 0.815);
+        z-index: 1 !important;
+      }
+
+      .names {
+        position: relative;
+        text-shadow: #af617f 1px 0 10px;
+        font-size: 5.5rem;
+        color: rgba(255, 255, 255, 0.966);
+        font-family: freitag;
+        letter-spacing: 6px;
+        font-weight: 100;
+        backdrop-filter: blur(10px);
+        // background-color: #6c2641;
+        // backdrop-filter: blur(15px);
+        padding: 10px 80px;
+        border-radius: 300px;
+        // border-top: 10px solid #6c2641;
+        // border-bottom: 10px solid #6c2641;
+        z-index: 9;
+      }
+  
+      .me {
+        height: 500px;
+        z-index: 8 !important;
+
+        img {
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  .content {
+    padding: 50px 150px;
+
+    h2 {
+      text-align: center;
+      font-family: manrope-bold;
+      text-transform: uppercase;
+      padding: 20px 0;
+      font-size: 50px;
+      letter-spacing: 4px;
+    }
+  }
+}
