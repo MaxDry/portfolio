@@ -67,6 +67,19 @@ export default function Parcours() {
                 web, lourde et apprentissage du monde orienté objet.</span>
             </div>
           </CustomAccordion>
+          <CustomAccordion
+            title={"BAC STI2D"} 
+            time={"3 ans"}
+            date={"2013-2016"}
+            localisation={"Jean Rostand, Chantilly"}
+            logo={<img src="./img/jeanRostand_logo.png" alt=""/>}
+          >
+            <div>
+              <span>BTS Service Informatique aux Organisations de 2 ans durant lequel j'ai 
+                découvert le développement au sens large. Développement d'application mobile, 
+                web, lourde et apprentissage du monde orienté objet.</span>
+            </div>
+          </CustomAccordion>
         </div>
         <div className={styles.parcours_content}>
           <h3>Travail</h3>
@@ -108,6 +121,20 @@ export default function Parcours() {
             <div>
               <span>
                 J'ai réalisé essentiellement de la correction de bugs d'application ASP.NET et JS, de la rédaction de documents techniques et analyse de besoin auprès des clients
+              </span>
+            </div>
+          </CustomAccordion>
+          <CustomAccordion
+            title={"Web Developpeur"} 
+            time={"4 mois"}
+            date={"2018"}
+            localisation={"Mairie, Pole Informatique, Clermont"}
+            logo={<img src="./img/oxylead_logo.png" alt=""/>}
+            technos={["PHP", "JS", "HTML", "CSS", "SQL"]}
+          >
+            <div>
+              <span>
+                Installé au pole Informatique j'ai développé et maintenu une application de gestion de fournitures en PHP natif.
               </span>
             </div>
           </CustomAccordion>

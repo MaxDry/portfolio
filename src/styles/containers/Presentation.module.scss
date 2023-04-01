@@ -1,0 +1,27 @@
+.presentation {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+    .presentation_text {
+        width: 45%;
+        color: white;
+        font-family: Manrope;
+        font-size: 19px;
+    }
+
+    .presentation_carousel {
+        width: 45%;
+
+        .carousel_element {
+            border-radius: 7px;
+            overflow: hidden;
+            height: 500px;
+
+            img {
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}

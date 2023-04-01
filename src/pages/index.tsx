@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.scss';
 import Link from 'next/link';
 import { motion } from "framer-motion"
 import Parcours from "../containers/parcours/Parcours";
+import Presentation from "../containers/presentation/Presentation";
 import Skills from "../containers/skills/Skills";
 import Projects from '../containers/projects/Projects';
 import Contact from '../containers/contacts/Contact';
@@ -105,6 +106,10 @@ export default function Home() {
               {/* <h2>Développeur web Fullstack</h2> */}
             </div>
           </div>
+        </div>
+        <div id="presentation" className={styles.content}>
+          <h2>Presentation</h2>
+          <Presentation />
         </div>
         <div id="parcours" className={styles.content}>
           <h2>Parcours</h2>
